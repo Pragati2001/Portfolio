@@ -1,0 +1,143 @@
+*{
+    list-style: none;
+}
+.achieve-heading{
+    font-size: 34px;
+    margin-left: 40%;
+}
+.achieve{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 800px;
+    width: 100%;
+    gap: 1rem;
+    grid-template-areas: "one one two two three three"
+    "one one two two three three"
+    "four four four five three three"
+    "four four four five three three"
+    "six six six five three three"
+    "six six six five three three";
+}
+.b1{
+    position: relative;
+    grid-area: one;
+    background: rgb(255, 56, 96);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "one_div two_div";
+}
+.one_div{
+    height: 200px;
+    width: 200px;
+}
+.two_div{
+    grid-area: two_div;
+    font-size: 22px;
+    margin-top: 4rem;
+}
+.b2{
+    position: relative;
+    grid-area: two;
+    background: cyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "partb1 partb2";
+}
+.gs{
+    grid-area: partb1;
+    width: 500px;
+    height: 200px;
+}
+.partb2{
+    grid-area:partb2;
+    font-size: 20px;
+    margin-top: 4rem;
+}
+.b3{
+    grid-area: three;
+    background-color: rgb(255, 23, 255);
+    font-size: 28px;
+}
+.b4{
+    grid-area: four;
+    background-color: darkorange;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "b4part1 b4part2";
+}
+.app{
+    grid-area: b4part1;
+    height: 210px;
+    width: 300px;
+}
+.b4part2{
+    grid-area: b4part2;
+    font-size: 20px;
+    margin-top: 4rem;
+}
+.b5{
+    grid-area: five;
+    background-color: deeppink;
+    font-size: 27px;
+}
+.b6{
+    grid-area: six;
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "part1 part2";
+}
+.scaler{
+    margin-top: 3rem;
+    height:1000px;
+    width:900px;
+
+}
+.cousera{
+    grid-area: part1;
+    height:200px;
+    background-color: green;
+
+}
+.part2{
+    grid-area: part2;
+    font-size: 23px;
+    margin-top: 4rem;
+    /* background-color: hotpink; */
+}
+@media (max-width:576px)
+{
+    .achieve{
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(6,1fr);
+        background: darkgreen;
+        width:576px;
+        height:700px;
+        grid-template-areas: "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six";
+    }
+    .b1{
+        grid-area: one;
+    }
+    .b2{
+        grid-area: two;
+
+    }
+    .b3{
+        grid-area:three;
+    }
+    .b4{
+        grid-area: four;
+    }
+    .b5{
+        grid-area: five;
+    }
+    .b6{
+        grid-area: six;
+    }
+}

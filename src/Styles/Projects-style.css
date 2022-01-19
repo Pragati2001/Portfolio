@@ -1,0 +1,127 @@
+.heading{
+    margin:0px 5rem 2rem 5rem;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.heading span{
+    font-family: cursive;
+    font-size: 3rem;
+    text-shadow: lightskyblue;
+    text-align: center;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.movie{
+    height: 180px;
+    width: 300px;
+}
+.div_content{
+    /* border: 2px solid rgb(255, 140, 98); */
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin:2rem 2rem 2rem 3rem;
+    max-height:20rem;
+    max-width: 20rem;
+}
+.div_content span{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 5rem;
+}
+.proj-content{
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    margin:2rem;
+    /* border: 3px solid black; */
+}
+/* ##################################### */
+.block1{
+    margin:2rem;
+    max-width:400px; 
+    height:30rem;
+}
+.div_heading1{
+    min-height: 5rem;
+    /* background: linear-gradient(pink,rgb(122, 236, 122)); */
+    background-color: rgb(251, 253, 103);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+/* ##################################### */
+.block2
+{
+    margin:2rem;
+    max-width:400px; 
+    height:30rem;
+    
+}
+.div_heading2{
+    min-height: 5rem;
+    /* background: linear-gradient(rgb(207, 247, 207),rgb(253, 253, 147),rgb(168, 255, 168)); */
+    background: cornflowerblue;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+/* ##################################### */
+.block3
+{
+    margin:2rem;
+    max-width:400px; 
+    height:30rem;
+    /* border: 3px solid black; */
+    
+}
+.div_heading3{
+    min-height: 5rem;
+    background-color: rgb(221, 100, 237);
+    /* background: linear-gradient(pink,cornflowerblue,rgb(255, 255, 85)); */
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+/* ##################################### */
+.block4
+{
+    margin:2rem;
+    max-width:400px; 
+    height:30rem;
+    
+}
+.div_heading4{
+    min-height: 5rem;
+    /* background-color: rgb(251, 253, 103); */
+    background: rgb(91, 226, 91);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+/* ##################################### */
+.block5
+{
+    margin:2rem;
+    max-width:400px; 
+    height:30rem;
+    
+}
+.div_heading5{
+    min-height: 5rem;
+    background-color: rgb(68, 65, 247);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+/* ##################################### */
+.Projects{
+    background: linear-gradient(cornflowerblue,rgb(255, 191, 73),rgb(255, 255, 58));
+}
