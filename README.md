@@ -1,4 +1,3 @@
-link for site https://awesome-montalcini-0c15a5.netlify.app/
 
 # Getting Started with Create React App
 
